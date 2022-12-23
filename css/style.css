@@ -1,0 +1,237 @@
+body 
+{font-family: Roboto, sans-serif;}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* скидаємо відступи */
+ul, 
+li {
+    margin: 0;
+    padding-left: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding-left: 0;
+}
+
+/* HEADER */
+/* 1-а сторінка Основна частина*/
+/* 1-а сторінка, Секція 1 з кнопкою- */
+
+.page-button-order {
+    background-color: #2E2F42;
+}
+.page-button-order-service  {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19em;
+    display: flex;
+    align-items: center; 
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
+.page-button-order-service:hover {
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.page-button-order-service:focus {
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.page-button-title {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+/* Оформлення слів Studio Portfolio Contacts*/
+.header-link {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+/* Оформлення телефону та імейл*/
+.header-contacts {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* 1-а сторінка, 
+Секція 2 Принципи компанії */
+.title {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.text-title {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* 1-а сторінка заголовки секцій 
+наша робота, наша команда*/
+.title-section {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+/* 1-а сторінка, 
+Секція 4 Команда компанії
+імена, професія */
+.name {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.job {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* 2-а сторінка */
+
+.header-logo-web {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5; 
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+/* оформлення кнопок 2-а сторінка портфоліо
+all, web-site, app, design, marketing*/
+.button-name
+ {  font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.button-name:hover 
+{color: #FFFFFF;background: #404BBF;}
+
+.button-name:focus 
+{color: #FFFFFF; background: #404BBF;} 
+
+/* PORTFOLIO*/
+
+.portfolio-title 
+{   font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.portfolio-text 
+{
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ФУТЕР */
+.footer-page {background-color:  #2E2F42;}
+.footer-logo {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16em;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-logo-web {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16em;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+} 
+.text-fotter {
+   font-family: inherit;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5em;
+   letter-spacing: 0.02em;
+   color: #E7E9FC;
+}
+
+/* БЛОКОВІ МОДЕЛІ */
+/* ШИРИНА КОНТЕЙНЕРУ */
+.container {
+width: 1128px;
+padding-left: 12px;
+padding-right: 12px;
+}
