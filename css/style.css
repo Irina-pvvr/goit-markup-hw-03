@@ -69,6 +69,9 @@ h1, h2, h3, p {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-bottom: 24px;
+    margin-top: 24px;
+   
 }
 .header-lists {
     display: flex;
@@ -81,12 +84,15 @@ h1, h2, h3, p {
 }
 .header-contacts  {
     display: flex;
+    align-items: center;
 }
 
 /* селектор нащадка - застосувати до класу контейнер, який міститься в класі хедер-пейдж */
 .header-page>.container {
     display: flex;
+    align-items: center;
 }
+
 /* Оформлення телефону та імейл*/
 .header-contacts {
     font-family: inherit;
