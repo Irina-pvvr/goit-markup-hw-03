@@ -70,8 +70,10 @@ h1, h2, h3, p {
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding-bottom: 24px;
-    margin-top: 24px;
-   
+    margin-top: 24px;  
+}
+.header-logo {
+    margin-right: 76px;
 }
 .header-lists {
     display: flex;
