@@ -62,6 +62,7 @@ h1, h2, h3, p {
     color: #FFFFFF;
     padding-top: 188px;
     padding-bottom: 292px; 
+    max-width: 492px;
 }
 
 /* Оформлення слів Studio Portfolio Contacts*/
