@@ -23,11 +23,13 @@ h1, h2, h3, p {
 /* 1-а сторінка Основна частина*/
 /* 1-а сторінка, Секція 1 з кнопкою- */
 
-.page-button-order {
+.page-button-order {}
+
+/* обмежено межі фону через селектор батька */
+.page-button-order >.container {
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 292px;
 }
+
 .page-button-order-service  {
     font-family: inherit;
     font-weight: 600;
@@ -38,7 +40,10 @@ h1, h2, h3, p {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: #4D5AE5;
+    width: 169px;
+    height: 56px;
 }
+
 .page-button-order-service:hover {
     color: #4D5AE5;
     background: #F4F4FD;
@@ -55,7 +60,8 @@ h1, h2, h3, p {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 64px;
+    padding-top: 188px;
+    padding-bottom: 292px; 
 }
 
 /* Оформлення слів Studio Portfolio Contacts*/
@@ -78,6 +84,7 @@ h1, h2, h3, p {
 .header-lists {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .header-navigation {
@@ -87,8 +94,11 @@ h1, h2, h3, p {
 .header-contacts  {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
-
+.header-contact-item {
+    margin-right: 40px;
+}
 /* селектор нащадка - застосувати до класу контейнер, який міститься в класі хедер-пейдж */
 .header-page>.container {
     display: flex;
@@ -107,7 +117,9 @@ h1, h2, h3, p {
 
 /* 1-а сторінка, 
 Секція 2 Принципи компанії */
+
 .pinciples {
+   
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -278,5 +290,4 @@ width: 1128px;
 padding-left: 12px;
 padding-right: 12px;
 outline: 1px solid red;
-
 }
