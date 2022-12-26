@@ -61,6 +61,7 @@ h1, h2, h3, p {
     padding-right: 473px;
     padding-top: 188px;
     margin-bottom: 48px;
+    text-align: center;
 }
 .button-wrap {
 padding-bottom: 188px;
@@ -79,25 +80,27 @@ padding-right: 635px;
     color: #2E2F42;
     padding-bottom: 24px;
     padding-top: 24px; 
+    
 }
-
 .header-logo {
     padding-left: 156px;
+    margin-right: 76px;
 }
 .header-lists {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
-
 .header-navigation {
     display: flex;
     align-items: center;
-
+    margin-right: auto;
 }
 .header-contacts  {
     display: flex;
     align-items: center;
-
+    padding-right: 156px;
+    gap: 40px;
 }
 /* селектор нащадка - застосувати до класу контейнер, який міститься в класі хедер-пейдж */
 .header-page>.container {
@@ -161,13 +164,29 @@ padding-right: 635px;
     margin-bottom: 72px;
 }
 /* ставимо картинки в ряд */
-.list {
+.principles-wrap {
     display: flex;
     gap: 24px;
     padding-left: 156px;
     padding-right: 156px;
 }
 
+.doing-wrap
+{
+    display: flex;
+    gap: 24px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+.team-wrap {
+    display: flex;
+    gap: 24px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+.team>.container {
+background: #F4F4FD;
+}
 /* 1-а сторінка, 
 Секція 4 Команда компанії
 імена, професія */
@@ -271,6 +290,9 @@ all, web-site, app, design, marketing*/
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
+    padding-top: 100px;
+    padding-left: 156px;
+    margin-bottom: 16px;
 }
 
 .footer-logo-web {
@@ -293,6 +315,7 @@ all, web-site, app, design, marketing*/
    color: #E7E9FC;
    padding-left: 156px;
    padding-right: 1020px;
+   padding-bottom: 100px;
 }
 
 /* БЛОКОВІ МОДЕЛІ */
