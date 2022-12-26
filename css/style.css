@@ -211,7 +211,9 @@ background: #F4F4FD;
     color: #434455;
     padding-bottom: 32px;
 }
-/* 2-а сторінка */
+                                    /* 2-а сторінка */
+                                 
+
 
 .header-logo-web {
     font-family: 'Raleway';
@@ -256,6 +258,23 @@ all, web-site, app, design, marketing*/
 .button-name:focus 
 {color: #FFFFFF; background: #404BBF;} 
 
+.buttons-wrap {
+    display: flex;
+    flex-direction: row;
+    padding-left: 427px;
+    padding-right: 427px;
+    padding-top: 96px;
+    margin-bottom: 72px;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-item {
+    text-align: center;
+}
 /* PORTFOLIO*/
 
 .portfolio-title 
@@ -265,6 +284,8 @@ all, web-site, app, design, marketing*/
     line-height: 1.2em;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 .portfolio-text 
 {
@@ -276,6 +297,29 @@ all, web-site, app, design, marketing*/
     color: #434455;
 }
 
+.portfolio-wrap {
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-bottom: 72px;
+}
+/* падінг ботом 120 (загана відстань) -48 (маржин фото) =72 */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-photo {
+    width: 360px;
+    margin-right: 24px;
+    padding-right: 32px;
+    margin-bottom: 48px;
+}
+/* псевдоклас маржин за винятком кожного 3-го елементу */
+.portfolio-photo:nth-child(3n) {
+    margin-right: 0;
+}
+.portfolio-photo:nth-child(3n) {
+    
+}
 /* ФУТЕР */
 .footer-page>.container {
     background-color:  #2E2F42;
@@ -325,5 +369,5 @@ width: 1470px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
-outline: 1px solid red;
 }
+/* outline: 1px solid red; обводка контейнера */
