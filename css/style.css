@@ -16,20 +16,16 @@ li {
 
 h1, h2, h3, p {
     margin: 0;
-    padding-left: 0;
 }
 
 /* HEADER */
 /* 1-а сторінка Основна частина*/
 /* 1-а сторінка, Секція 1 з кнопкою- */
 
-.page-button-order {}
-
 /* обмежено межі фону через селектор батька */
 .page-button-order >.container {
     background-color: #2E2F42;
 }
-
 .page-button-order-service  {
     font-family: inherit;
     font-weight: 600;
@@ -42,6 +38,8 @@ h1, h2, h3, p {
     background: #4D5AE5;
     width: 169px;
     height: 56px;
+    align-items: center;
+    justify-content: center;
 }
 
 .page-button-order-service:hover {
@@ -54,17 +52,21 @@ h1, h2, h3, p {
 }
 .page-button-title {
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 56px;
-    line-height: 1.07em;
-    text-align: center;
+    line-height: 1.01em;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding-left: 473px;
+    padding-right: 473px;
     padding-top: 188px;
-    padding-bottom: 292px; 
-    max-width: 492px;
+    margin-bottom: 48px;
 }
-
+.button-wrap {
+padding-bottom: 188px;
+padding-left: 636px;
+padding-right: 635px;
+}
 /* Оформлення слів Studio Portfolio Contacts*/
 .header-link {
     font-family: inherit;
@@ -73,32 +75,29 @@ h1, h2, h3, p {
     line-height: 1.5;
     display: flex;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding-bottom: 24px;
-    margin-top: 24px;  
+    padding-top: 24px; 
 }
+
 .header-logo {
-    margin-right: 76px;
+    padding-left: 156px;
 }
 .header-lists {
     display: flex;
     align-items: center;
-    gap: 40px;
 }
 
 .header-navigation {
     display: flex;
     align-items: center;
+
 }
 .header-contacts  {
     display: flex;
     align-items: center;
-    margin-left: auto;
-}
-.header-contact-item {
-    margin-right: 40px;
+
 }
 /* селектор нащадка - застосувати до класу контейнер, який міститься в класі хедер-пейдж */
 .header-page>.container {
@@ -119,8 +118,7 @@ h1, h2, h3, p {
 /* 1-а сторінка, 
 Секція 2 Принципи компанії */
 
-.pinciples {
-   
+.principles {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -133,7 +131,7 @@ h1, h2, h3, p {
     color: #2E2F42;
 }
 .doing {
-    padding-bottom: 120px;
+    padding-bottom: 120px;   
 }
 
 .team {
@@ -162,6 +160,14 @@ h1, h2, h3, p {
     color: #2E2F42;
     margin-bottom: 72px;
 }
+/* ставимо картинки в ряд */
+.list {
+    display: flex;
+    gap: 24px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
 /* 1-а сторінка, 
 Секція 4 Команда компанії
 імена, професія */
@@ -184,6 +190,7 @@ h1, h2, h3, p {
     text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-bottom: 32px;
 }
 /* 2-а сторінка */
 
@@ -251,7 +258,9 @@ all, web-site, app, design, marketing*/
 }
 
 /* ФУТЕР */
-.footer-page {background-color:  #2E2F42;}
+.footer-page>.container {
+    background-color:  #2E2F42;
+}
 .footer-logo {
     font-family: Raleway;
     font-weight: 800;
@@ -282,13 +291,16 @@ all, web-site, app, design, marketing*/
    line-height: 1.5em;
    letter-spacing: 0.02em;
    color: #E7E9FC;
+   padding-left: 156px;
+   padding-right: 1020px;
 }
 
 /* БЛОКОВІ МОДЕЛІ */
-/* ШИРИНА КОНТЕЙНЕРУ */
+/* ШИРИНА КОНТЕЙНЕРУ оригінал 1440+50 додатковий падінг */
 .container {
-width: 1128px;
-padding-left: 12px;
-padding-right: 12px;
+width: 1470px; 
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
 outline: 1px solid red;
 }
