@@ -23,7 +23,7 @@ h1, h2, h3, p {
 /* 1-а сторінка, Секція 1 з кнопкою- */
 
 /* обмежено межі фону через селектор батька */
-.page-button-order >.container {
+.page-button-order {
     background-color: #2E2F42;
 }
 .page-button-order-service  {
@@ -95,7 +95,7 @@ padding-bottom: 188px;
 
 }
 /* селектор нащадка - застосувати до класу контейнер, який міститься в класі хедер-пейдж */
-.header-page>.container {
+.header-page>.continer {
     display: flex;
     align-items: center;
 }
@@ -158,7 +158,6 @@ padding-bottom: 188px;
 .list {
     display: flex;
     gap: 24px;
-
 }
 
 /* 1-а сторінка, 
@@ -251,7 +250,7 @@ all, web-site, app, design, marketing*/
 }
 
 /* ФУТЕР */
-.footer-page>.container {
+.footer-page {
     background-color:  #2E2F42;
 }
 .footer-logo {
