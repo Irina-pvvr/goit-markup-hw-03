@@ -25,7 +25,10 @@ h1, h2, h3, p {
 /* обмежено межі фону через селектор батька */
 .page-button-order {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
+
 .page-button-order-service  {
     font-family: inherit;
     font-weight: 600;
@@ -61,9 +64,29 @@ h1, h2, h3, p {
     max-width: 494px;
     text-align: center;
 }
-.button-wrap {
-padding-bottom: 188px;
 
+.header-logo-web {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5; 
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    margin-right: 76px;
 }
 /* Оформлення слів Studio Portfolio Contacts*/
 .header-link {
@@ -78,7 +101,7 @@ padding-bottom: 188px;
     padding-bottom: 24px;
     padding-top: 24px; 
 }
-
+/* оформлення контактыв та кнопок меню в рядок */
 .header-lists {
     display: flex;
     align-items: center;
@@ -87,15 +110,15 @@ padding-bottom: 188px;
 .header-navigation {
     display: flex;
     align-items: center;
-
+    margin-right: auto;
 }
+
 .header-contacts  {
     display: flex;
     align-items: center;
-
 }
 /* селектор нащадка - застосувати до класу контейнер, який міститься в класі хедер-пейдж */
-.header-page>.continer {
+.header-page>.container {
     display: flex;
     align-items: center;
 }
@@ -107,11 +130,15 @@ padding-bottom: 188px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;
+}
 
 /* 1-а сторінка, 
 Секція 2 Принципи компанії */
 
+.principles-wrap {
+    width: 264px;
+}
 .principles {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -124,12 +151,10 @@ padding-bottom: 188px;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.doing {
-    padding-bottom: 120px;   
-}
 
 .team {
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 .text-title {
     font-family: inherit;
@@ -186,28 +211,7 @@ padding-bottom: 188px;
 }
 /* 2-а сторінка */
 
-.header-logo-web {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5; 
-}
-.header-logo {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
-}
+
 
 /* оформлення кнопок 2-а сторінка портфоліо
 all, web-site, app, design, marketing*/
