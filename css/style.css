@@ -155,6 +155,7 @@ h1, h2, h3, p {
 .team {
     padding-bottom: 120px;
     padding-top: 120px;
+    background: #F4F4FD;
 }
 .text-title {
     font-family: inherit;
@@ -209,12 +210,20 @@ h1, h2, h3, p {
     color: #434455;
     padding-bottom: 32px;
 }
+
+.doing {
+padding-bottom: 120px; 
+}
 /* 2-а сторінка */
 
 
 
 /* оформлення кнопок 2-а сторінка портфоліо
 all, web-site, app, design, marketing*/
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .button-name
  {  font-family: inherit;
     font-weight: 600;
@@ -251,6 +260,11 @@ all, web-site, app, design, marketing*/
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.portfolio-photo {
+    display: flex;
+     
 }
 
 /* ФУТЕР */
