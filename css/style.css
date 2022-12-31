@@ -276,12 +276,16 @@ all, web-site, app, design, marketing*/
     width: 360px;
     height: 420px;
 }
+
+.portfolio-container {
+padding-top: 96px;
+padding-bottom: 120px;
+}
 .portfolio {
 display: flex;
 flex-wrap: wrap;
-padding-top: 96px;
-padding-bottom: 120px;
 gap: 24px;
+margin-top: 72px;
 }
 
 .portfolio-photo:nth-child(3n) 
